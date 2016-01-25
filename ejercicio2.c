@@ -79,4 +79,5 @@ int main(int argc, char *argv[])
      }
      printf("Value for Pi is %f \n",1, 4*(tot_in/TOT_COUNT));
    pthread_exit(NULL);
+   return 0;
 }
